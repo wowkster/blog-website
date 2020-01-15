@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+
+body {
+    font-family: Arial;
+    /* padding: 20px; */
+    background: #0088ff;
+    margin: 0px;
+    overflow:auto;
+    width: 100%
+}
+
+/* Header/Blog Title */
+
+.header {
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    font-size: 25px;
+    text-align: center;
+    background: #00bbff;
+    
+}
+
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #00bbff;
+    margin-top: 20px;
+    font-size: 80%;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #00cc44;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+li a:hover:not(.active) {
+    background-color: #00bb44;
+}
+
+.active {
+    background-color: #0088ff;
+}
+.active:hover {
+    background-color: #0066ff;
+}
+
+.img {
+    text-align: center;
+    display: block;
+}
+img {
+    width:65%;
+    height:65%;
+}
+
