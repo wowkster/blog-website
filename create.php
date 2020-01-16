@@ -84,6 +84,9 @@
             </form>
         </div>
     </div>
+    <div class="card">
+        <h2><a href="update.php" style="text-decoration:none;color:black;">Update Status!</a></h2>
+    </div>
     <hr>
     <div class="footer">
         <h2>©2019 Adrian Wowk. All rights reserved.</h2>

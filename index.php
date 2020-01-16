@@ -20,6 +20,7 @@
 
         </div>
         <div class="rightcolumn">
+            <?php include 'getstat.php';?>
             <div class="card">
                 <h2><a style='text-decoration:none; color:black;' href='about.html'>About Me</a></h2>
                 <span class="img">
